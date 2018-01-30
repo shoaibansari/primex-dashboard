@@ -1,0 +1,138 @@
+
+.body {
+
+	margin:0;
+}
+
+
+
+
+.full-page{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    background-size: inherit;
+    /*background-position: center center;*/
+}
+
+.card-title {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.btn-simple {
+
+	background-color: transparent;
+}
+
+.btn.btn-simple, .btn.btn-default.btn-simple, .navbar .navbar-nav>li>a.btn.btn-simple, .navbar .navbar-nav>li>a.btn.btn-default.btn-simple {
+    background-color: transparent;
+    color: #999999;
+    box-shadow: none;
+}
+
+.card-login .social-line .btn {
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+.container h1 {
+
+ color: #FFFFFF;
+ font-weight: bold;
+
+}
+
+.logo a img {
+
+	height: 55px;
+}
+
+.notify {
+
+    font-size: large;
+}
+
+.notify_counter {
+
+    float: right;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:focus  {
+
+    background:transparent !important;
+    border: none !important;
+}
+
+a:focus {outline: none !important;outline-offset: 0px !important;}
+a:active, a:hover{outline: none !important;}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    box-shadow: inset 0 0 0px #111 !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active
+{box-shadow: inset 0 0 0px #111 !important;}
+
+
+.nav li.active a, .nav li.active a {
+    background-color: #04abc7;
+    box-shadow: 0 12px 20px -10px #aaaaaa, 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px #aaaaaa;
+}
+
+
+
+
+
+.pagination>.active>a, 
+.pagination>.active>a:focus, 
+.pagination>.active>a:hover, 
+.pagination>.active>span, 
+.pagination>.active>span:focus, 
+.pagination>.active>span:hover{
+        box-shadow: none !important;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+   .notify {
+
+    font-size: small;
+    }
+}
+
+.pagination {
+
+    margin: 0 !important;
+}
+
+.notify_right {
+
+    float: right;
+    font-size: large !important; 
+    
+}
+
+@media only screen and (max-width: 500px) {
+
+   .table-responsive h5 {
+
+        margin-left: 10px;
+        margin-top: 19px;
+    }
+}
+
+.notify_dasboard {
+
+    font-size: large !important; 
+    color: #696262 !important;
+    background-color: #ffffff !important;
+}
+}
