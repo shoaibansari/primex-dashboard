@@ -1,7 +1,7 @@
 @extends('administrator.layouts.master')
 
 @section('title')
-  Edit Details
+  Admin Dashboard | Edit Details
 @endsection
 
 
@@ -24,7 +24,7 @@
                                
                     <div class="card-content">
                         <div class="toolbar">
-                            <h2>Edit Details</h2>
+                            <h3>Edit Details</h3>
                             <hr>
                         </div>
 

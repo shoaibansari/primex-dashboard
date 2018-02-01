@@ -7,32 +7,32 @@
             </div>
             <div class="sidebar-wrapper ps-container ps-theme-default">
                 <ul class="nav">
-                    <li class="{{ Request::is('dashboard') ? "active" : "" }}">
+                    <li class="{{ Request::is('admin/dashboard') ? 'active' : '' }}">
                         <a href="{{ route('dashboard') }}">
                             <i class="material-icons">dashboard</i>
                             <p>Dashboard</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="{{ Request::is('admin/orders') ? 'active' : '' }}">
                         <a href="{{ route('order') }}">
                             <i class="fa fa-bars" aria-hidden="true"></i>
                             <p>Orders</p>
                         </a>
                     </li>
-                    <li class="">
+                    <li class="{{ Request::is('admin/editDetails') ? 'active' : '' }}">
                         <a href="{{ route('edit') }}">
                             <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                             <p>Edits</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="{{ Request::is('admin/estimateDetails') ? 'active' : '' }}">
                         <a href="{{ route('estimate') }}">
                             <i class="material-icons">content_paste</i>
                             <p>Estimates</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="email.html">
+                    <li class="{{ Request::is('admin/email') ? 'active' : '' }}">
+                        <a href="{{ route('email') }}">
                             <i class="material-icons">email</i>
                             <p>Emails</p>
                         </a>
@@ -43,21 +43,19 @@
                             <p>Users</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="quickpay.html">
+                    <li class="{{ Request::is('admin/quickpay') ? 'active' : '' }}">
+                        <a href="{{ route('quickpay') }}">
                             <i class="fa fa-money" aria-hidden="true"></i>
                             <p>Quick Pay</p>
                         </a>
                     </li>
-                     <li class="active-pro">
-                        <a href="tickets.html">
+                     <li class="{{ Request::is('admin/tickets') ? 'active' : '' }}">
+                        <a href="{{ route('tickets') }}">
                             <i class="fa fa-ticket" aria-hidden="true"></i>
                             <p>Tickets</p>
                         </a>
-                    </li>
-
-                    
+                    </li>                   
                 </ul>
           
-    </div>	
-    </div><!-- sidebar end   -->
+    </div> <!-- sidebar-wrapper -->
+</div> <!-- sidebar end -->

@@ -624,7 +624,7 @@ h2.title {
 }
 
 .text-primary {
-    color: #9c27b0;
+    color: #337ab7;
 }
 
 .text-danger {
@@ -1723,7 +1723,7 @@ fieldset[disabled] .navbar .navbar-nav>li>a.btn.btn-danger.active {
 
 .btn.btn-rose,
 .navbar .navbar-nav>li>a.btn.btn-rose {
-    box-shadow: 0 2px 2px 0 rgba(233, 30, 99, 0.14), 0 3px 1px -2px rgba(233, 30, 99, 0.2), 0 1px 5px 0 rgba(233, 30, 99, 0.12);
+    box-shadow: 0 2px 2px 0 rgba(255,255,255,.15), 0 3px 1px -2px rgba(255,255,255,.15), 0 1px 5px 0 rgba(255,255,255,.15);
 }
 
 .btn.btn-rose,
@@ -1760,7 +1760,7 @@ fieldset[disabled] .navbar .navbar-nav>li>a.btn.btn-danger.active {
 .navbar .navbar-nav>li>a.btn.btn-rose:focus,
 .navbar .navbar-nav>li>a.btn.btn-rose:active,
 .navbar .navbar-nav>li>a.btn.btn-rose:hover {
-    box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
+    box-shadow: 0 14px 26px -12px rgba(255,255,255,.15), 0 4px 23px 0px rgba(255,255,255,.15), 0 8px 10px -5px rgba(255,255,255,.15);
 }
 
 .btn.btn-rose.disabled,
@@ -5076,9 +5076,9 @@ footer .btn {
 .navbar.navbar-default .dropdown-menu li a:hover,
 .navbar.navbar-default .dropdown-menu li a:focus,
 .navbar.navbar-default .dropdown-menu li a:active {
-    background-color: #9c27b0;
+    background-color: #04abc7;
     color: #FFFFFF;
-    box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
+    box-shadow: 0 12px 20px -10px rgba(255,255,255,.15), 0 4px 20px 0px rgba(255,255,255,.15), 0 7px 8px -5px rgba(255,255,255,.15);
 }
 
 .navbar-nav>li>.dropdown-menu,
@@ -6407,7 +6407,7 @@ footer .btn {
 
     .card [data-background-color="rose"] {
    background: linear-gradient(60deg, #0e8aa0, #5dd3cf);
-    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4);
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px #ddd;
     }
 
     .form-group {
@@ -6573,7 +6573,7 @@ footer .btn {
         left: auto;
         z-index: 1032;
         visibility: visible;
-        background-color: #9A9A9A;
+        background-color: #fdfdfd;
         overflow-y: visible;
         border-top: none;
         text-align: left;
@@ -6605,7 +6605,7 @@ footer .btn {
         height: 100%;
         width: 100%;
         position: absolute;
-        background-color: #282828;
+        /*background-color: #282828;*/
         display: block;
         content: "";
         z-index: 1;

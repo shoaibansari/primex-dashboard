@@ -87,7 +87,7 @@ Registration
                                            
                                         </div>
                                         <div class="footer text-center ">
-                                            <a href="#pablo" class="btn btn-rose ">Register</a>
+                                            <a href="{{ route('dashboard') }}" class="btn btn-rose ">Register</a>
                                         </div>
                                     </form>
                                 </div>

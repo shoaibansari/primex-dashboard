@@ -88,7 +88,7 @@ a:active, a:hover{outline: none !important;}
 
 
 
-
+.navbar .navbar-nav>li.open>.dropdown-menu{padding: 5px !important;}
 
 .pagination>.active>a, 
 .pagination>.active>a:focus, 

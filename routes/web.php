@@ -42,3 +42,21 @@ Route::get('/admin/editDetails', function () {
 Route::get('/admin/estimateDetails', function () {
     return view('administrator.pages.estimate');
 })->name('estimate');
+
+
+//route of Email load
+Route::get('/admin/email', function () {
+    return view('administrator.pages.email');
+})->name('email');
+
+
+//route of Quick Pay load
+Route::get('/admin/quickpay', function () {
+    return view('administrator.pages.quickpay');
+})->name('quickpay');
+
+
+//route of Tickets load
+Route::get('/admin/tickets', function () {
+    return view('administrator.pages.tickets');
+})->name('tickets');

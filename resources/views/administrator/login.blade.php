@@ -55,7 +55,7 @@
                                         </div>
                                     </div>
                                     <div class="footer text-center">
-                                        <button type="submit" class="btn btn-rose btn-simple btn-wd btn-lg"><a href="dashBoard.html">Let's go</a></button>
+                                        <button type="submit" class="btn btn-rose btn-simple btn-wd btn-lg"><a href="{{ route('dashboard') }}">Let's go</a></button>
                                     </div>
                                 </div>
                             </form>

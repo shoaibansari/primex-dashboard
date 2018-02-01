@@ -1,7 +1,7 @@
 @extends('administrator.layouts.master')
 
 @section('title')
-  Orders
+  Admin Dashboard | Orders
 @endsection
 
 
@@ -24,7 +24,7 @@
                                
                     <div class="card-content">
                         <div class="toolbar">
-                            <h2>Orders</h2>
+                            <h3>Orders</h3>
                             <hr>
                         </div>
 
